@@ -4,34 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea4715ae-7b49-441b-beaf-fddb48b4b051" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/splitwise1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Controller/BalanceSheetController.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Controller/ExpenseController.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Controller/GroupController.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Controller/UserController.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Controller/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExpenseSplitType/ExpenseSplit.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExpenseSplitType/ExpenseSplitType.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExpenseSplitType/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/Balance.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/Expense.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/Group.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/Split.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/User.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SplitFactory/EqualSplit.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SplitFactory/SplitFactory.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SplitFactory/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Splitwise.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserExpenseBalanceSheet.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    <list default="true" id="ea4715ae-7b49-441b-beaf-fddb48b4b051" name="Changes" comment="Splitwise">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/BalanceSheetController.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/BalanceSheetController.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/GroupController.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/GroupController.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/UserController.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/UserController.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Balance.py" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Balance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Group.py" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Group.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Split.py" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Split.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/User.py" beforeDir="false" afterPath="$PROJECT_DIR$/Models/User.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SplitFactory/EqualSplit.py" beforeDir="false" afterPath="$PROJECT_DIR$/SplitFactory/EqualSplit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SplitFactory/SplitFactory.py" beforeDir="false" afterPath="$PROJECT_DIR$/SplitFactory/SplitFactory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Splitwise.py" beforeDir="false" afterPath="$PROJECT_DIR$/Splitwise.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserExpenseBalanceSheet.py" beforeDir="false" afterPath="$PROJECT_DIR$/UserExpenseBalanceSheet.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,15 +44,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Python.main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="splitwise1" />
@@ -108,10 +93,21 @@
       <option name="presentableId" value="Default" />
       <updated>1727678209807</updated>
     </task>
+    <task id="LOCAL-00001" summary="Splitwise">
+      <option name="closed" value="true" />
+      <created>1727950511924</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1727950511924</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Splitwise" />
+    <option name="LAST_COMMIT_MESSAGE" value="Splitwise" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

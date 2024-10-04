@@ -34,7 +34,6 @@ class Splitwise:
 
         #adding members
         group=self.group_controller.get_group('G001')
-        print(group)
         group.add_members(self.user_controller.get_user('U002'))
         group.add_members(self.user_controller.get_user('U003'))
         splits=[]
@@ -44,8 +43,6 @@ class Splitwise:
         splits.append(split1)
         splits.append(split2)
         splits.append(split3)
-        group.create_expense('Ex001','Lunch',1600,self.user_controller.get_user('U001'),ExpenseSplitType.EQUAL,splits)
-
-
-
-
+        group.create_expense('Ex001','Lunch',1200,self.user_controller.get_user('U001'),ExpenseSplitType.EQUAL,splits)
+        for user in self.user_controller.get_all_user():
+            self.balance_sheet_controller.show_balance_of_user(user)

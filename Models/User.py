@@ -19,5 +19,5 @@ class User:
 
     def set_user_name(self,user_name):
         self.user_name=user_name
-    def get_user_expense_balace_sheet(self):
+    def get_user_expense_balance_sheet(self):
         return self.splitBalanceSheet

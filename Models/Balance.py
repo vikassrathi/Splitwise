@@ -7,7 +7,7 @@ class Balance:
 
     def __init__(self):
         self.amount_owe=0.0
-        self.amount_get_back=0/0
+        self.amount_get_back=0
 
 
     def get_amount_owe(self):

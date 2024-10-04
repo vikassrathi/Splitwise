@@ -30,7 +30,7 @@ class UserExpenseBalanceSheet:
 
     def set_total_your_expense(self,total_expense):
         self.total_your_expense=total_expense
-    def get_total_your_expese(self):
+    def get_total_your_expense(self):
         return  self.total_your_expense
 
     def get_user_vs_balance(self):

@@ -1,4 +1,4 @@
-
+from Controller.ExpenseController import ExpenseController
 
 
 class Group:
@@ -7,6 +7,8 @@ class Group:
         self.group_id=0
         self.group_name=0
         self.group_members=[]
+        self.expense_list=[]
+        self.expense_controller=ExpenseController()
 
     def get_group_id(self):
         return self.group_id
@@ -27,3 +29,8 @@ class Group:
 
     def add_members(self,member):
         self.group_members.append(member)
+
+    def create_expense(self,expense_id,description,expense_amount,paid_by_user,split_type,split_details):
+        expense=self.expense_controller.create_expense(expense_id,description,expense_amount,paid_by_user,split_type,split_details)
+        self.expense_list.append(expense)
+        return expense

@@ -4,14 +4,14 @@ from Models.Balance import Balance
 class BalanceSheetController:
 
     def update_user_expense_balance_sheet(self,expense_paid_by,splits,total_amount):
-        paid_by_user_expense_balance_sheet=expense_paid_by.get_user_expense_balace_sheet()
+        paid_by_user_expense_balance_sheet=expense_paid_by.get_user_expense_balance_sheet()
         paid_by_user_expense_balance_sheet.set_total_payment(paid_by_user_expense_balance_sheet.get_total_payment()+total_amount)
 
 
         for split in splits:
-            user_owe=split.get_user_id()
+            user_owe=split.get_user()
             user_owe_expense_balance_sheet=user_owe.get_user_expense_balance_sheet()
-            owe_amount=user_owe.get_amount_owe()
+            owe_amount=split.get_amount_owe()
 
             if expense_paid_by.get_user_id()==user_owe.get_user_id():
                 paid_by_user_expense_balance_sheet.set_total_your_expense(paid_by_user_expense_balance_sheet.get_total_your_expense()+owe_amount)
@@ -38,5 +38,10 @@ class BalanceSheetController:
 
     def show_balance_of_user(self,user):
         print('Get Balance Sheet of user',user.get_user_id())
-        user_expense_balance_sheet=user.get_user_expense_balace_sheet()
+        user_expense_balance_sheet=user.get_user_expense_balance_sheet()
         print('Total Expense',user_expense_balance_sheet.get_total_your_expense())
+        print('-------------------------------------------------------')
+        for user_id,balance in user_expense_balance_sheet.get_user_vs_balance().items():
+            # print(balance)
+            print('User_id',user_id,'YouGetBack',balance.get_amount_get_back(),'YouOwe',balance.get_amount_owe())
+        print('-------------------------------------------------------')

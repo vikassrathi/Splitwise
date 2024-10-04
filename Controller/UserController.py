@@ -12,6 +12,8 @@ class UserController:
     def get_user(self,user_id):
         for users in self.user_list:
 
-            if users==user_id:
+            if users.get_user_id()==user_id:
                 return users
         return None
+    def get_all_user(self):
+        return self.user_list
